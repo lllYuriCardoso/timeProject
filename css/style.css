@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(95, 93, 93);
+}
+
+.corp, .corpt{
+    position: relative;
+    float: left;
+    width: 500px;
+    height: 300px;
+    margin: 65px;
+    border: 2px solid rgb(95, 93, 93);
+    text-align: center;
+    padding: 0;
+    background-color: black;
+    border-radius: 20px;
+}
+
+#cron{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#temp{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2{
+    color: seashell;
+}
+
+
+button{
+    height: 2.5em;
+    width: 5.5em;
+    margin-top: 10px;
+    border: none;
+    color: seashell;
+    border-radius: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#num, #numt{
+    color: seashell;
+}
+.start, .startt{
+    background-color: seagreen;
+}
+.pause, .pauset{
+    background-color: rgb(109, 122, 122);
+}
+.stop, .stopt{
+    background-color: crimson;
+}
