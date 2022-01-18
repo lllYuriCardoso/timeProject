@@ -65,3 +65,24 @@ button:hover{
 .stop, .stopt{
     background-color: crimson;
 }
+
+#timer {
+    color: rgb(3, 3, 3);
+    background-color: cornsilk;
+}
+
+input{
+    display: block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: darkgray;
+    background-color: black;
+}
+
+#hh, #mm, #ss{
+    display: inline;
+}
+
+.h22{
+    display: inline;
+}

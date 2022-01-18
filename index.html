@@ -16,6 +16,7 @@
 
   <body>
     <div class="corp">
+
       <div id="cron">
         <h2>Cronometro</h2>
         <h1 id="num">00:00:00</h1>
@@ -29,13 +30,22 @@
       <div id="temp">
         <h2>Temporizador</h2>
         <h1 id="numt">00:00:00</h1>
+        <h2 class="h22">H:</h2>
+        <select name="hh" id="hh"></select>
+        <h2 class="h22">M:</h2>
+        <select name="mm" id="mm"></select>
+        <h2 class="h22">S:</h2>
+        <select name="ss" id="ss"></select>
         <button class="startt" onclick="startt()">Start</button>
         <button class="pauset" onclick="pauset()">Pause</button>
         <button class="stopt" onclick="stopt()">Stop</button>
-
-        <script src="script.js"></script>
       </div>
+
+      <div id="timer"></div>
+
+      <script src="script.js"></script>
+
     </div>
-    
+
   </body>
 </html>
